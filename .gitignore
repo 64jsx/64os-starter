@@ -1,0 +1,6 @@
+# your own data never goes to git: ticks, minutes, backups, the server log
+data/
+# written by setup/install-startup.ps1 with this PC's paths
+setup/run-hidden.vbs
+node_modules/
+*.tmp

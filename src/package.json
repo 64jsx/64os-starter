@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "type": "module",
+  "description": "64 OS source. Only needed to change the app: npm install here, then npm run build. Running the app needs only Node.js.",
+  "scripts": {
+    "build": "node build.mjs",
+    "test": "node tests/smoke.test.mjs && cd .. && node --test \"test/*.test.mjs\""
+  },
+  "devDependencies": {
+    "@playwright/test": "1.62.1",
+    "esbuild": "0.28.2",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  }
+}
